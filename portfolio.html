@@ -9,7 +9,6 @@
 </head>
 <body>
 
-
     <header>
         <nav>
 
@@ -17,13 +16,13 @@
 
             </div>
             <ul class="header-items">
-                <li class="item">About</li>
-                <li class="item">Experience</li>
-                <li class="item">Skills</li>
-                <li class="item">Projects</li>
-                <li class="item">Education</li>
-                <li class="item">Certificates</li>
-                <li class="item">Resume</li>
+                <li class="item" value="about" onclick="getDisplay(event)">About</li>
+                <li class="item" value="experience" onclick="getDisplay(event)">Experience</li>
+                <li class="item" value="skills" onclick="getDisplay(event)">Skills</li>
+                <li class="item" value="projects" onclick="getDisplay(event)">Projects</li>
+                <li class="item" value="education" onclick="getDisplay(event)">Education</li>
+                <li class="item" value="certificates" onclick="getDisplay(event)">Certificates</li>
+                <li class="item" value="resume" onclick="getDisplay(event)">Download Resume</li>
             </ul>
         </nav>
         <section class="intro">
@@ -49,16 +48,104 @@
 
     </header>
     <main class="main">
-        <!-- <section>
-            <img src="images/ratna.jpg">
+        <section id="about">
+            <div>
+            <img class="setImage" src="images/ratna.jpg">
+            </div>
+            <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ut quaerat autem laudantium quisquam veritatis commodi minima ab ipsam, error et sequi provident quae eligendi nam, asperiores doloremque veniam. Minima.
+</div>
+        </section>
+        <section id="experience">
 
-        </section> -->
+            <div class="exp-container">
+                <div class="exp">
+                 <h2>Dassault Systemes Solution Lab</h2>
+                 <ul>
+                    <li>Working as Frontend Developer</li>
+                    <li>Tech Stack: Angular,Typescript SCSS, Bootstrap,HTML,Gulp</li>
+
+                 </ul>
+                </div>
+                <div class="exp">
+                    <h2>Tata Consultancy Services</h2>
+                    <ul>
+                        <li>Frontend Developer</li>
+                        <li>Tech Stack: React JS, Redux, Material UI,Javascript, CSS3 </li>
+    
+                     </ul>
+                </div>
+                </div>
+</section>
+        <section id="skills">
+            <p>JavaScript</p>
+<div class="container">
+  <div class="skills js"></div>
+</div>
+<p>React JS</p>
+<div class="container">
+  <div class="skills react"></div>
+</div>
+
+<p>Angular</p>
+<div class="container">
+  <div class="skills angular"></div>
+</div>
+
+<p>CSS</p>
+<div class="container">
+  <div class="skills css"></div>
+</div>
+
+<p>HTML</p>
+<div class="container">
+  <div class="skills html"></div>
+</div>
+     
+
+        </section>
+        <section id="projects">
+
+                <div class="exp-container">
+                    <div class="exp">
+                     <h2>Project 1</h2>
+                     <ul>
+    
+                     </ul>
+                    </div>
+                    <div class="exp">
+                        <h2>Project 2</h2>
+                    </div>
+                    </div>
+
+        </section>
+        <section id="education">
+            <div><h1>B Tech (2021-2017)</h1>
+                <p>College: VIT, Vellore</p>
+                <p>Branch: ECE</p>
+                <p>8.79/10 CGPA</p>
+            </div>  
+            <div><h1>XII</h1>
+                <p>School: GHS, Prayagraj</p>
+                <p>Percentage: 92%</p>
+            </div>  
+            <div><h1>X</h1>
+                <p>School: GHS, Prayagraj</p>
+                <p>Percentage: 85%</p>
+            </div>  
+        </section>
+        <section id="certificates">
+            <div><h1>Certificates</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis dolore pariatur, quisquam perspiciatis aperiam tempore officiis voluptatem quis. Voluptas inventore itaque consectetur repellendus aspernatur iure impedit totam sapiente delectus sunt!</p>
+            </div>  
+        </section>
+        <section id="resume"></section>
     </main>
     <footer>
 
     </footer>
 
-    
+    <script src="portfolio.js"  ></script>
+
 </body>
 </html>

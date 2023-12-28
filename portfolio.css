@@ -132,3 +132,50 @@ nav{
         opacity: 0;
     }
 }
+
+.setImage{
+    height: 60vh;
+    width:20vw;
+}
+#about{
+    display: flex;
+    gap:30px;
+}
+#experience, #skills, #projects, #education, #certificates, #resume{
+    display: none;
+
+}
+.exp{
+    height: 50vh;
+    width: 20vw;
+    background: rgb(210, 205, 205) ;
+    border-radius: 10px;
+    transition: 1s ease;
+    padding: 20px;
+    margin: 15px;
+}
+.exp:hover{
+    transform: scale(1.5);
+
+}
+.exp-container{
+    display: flex;
+    justify-content: space-around;
+}
+.container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+  }
+  
+  .skills {
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+  }
+  
+  .js {width: 95%; background-color: #04AA6D;} /* Green */
+  .css {width: 80%; background-color: #04AA6D;} /* Blue */
+  .html {width: 85%; background-color: #04AA6D;} /* Red */
+  .react {width: 80%; background-color: #04AA6D;} /* Dark Grey */
+  .angular {width: 70%; background-color: #04AA6D;} /*}
