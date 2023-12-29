@@ -25,6 +25,7 @@ nav{
     height: 50vh;
     font-weight: bold;
     font-style: italic;
+    overflow: auto;
 
 }
 .name{
@@ -156,6 +157,7 @@ nav{
     transition: 1s ease;
     padding: 20px;
     margin: 15px;
+    overflow: auto;
     animation: projects 2s linear infinite;
 }
 @keyframes projects{
@@ -173,19 +175,19 @@ nav{
 }
 .exp-container{
     display: flex;
-   justify-content: space-between;
+   justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .container {
-    width: 100%; /* Full width */
-    background-color: #ddd; /* Grey background */
+    width: 100%; 
+    background-color: #ddd; 
   }
   
   .skills {
-    text-align: right; /* Right-align text */
-    padding-top: 10px; /* Add top padding */
-    padding-bottom: 10px; /* Add bottom padding */
-    color: white; /* White text color */
+    text-align: right; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    color: white;
   }
   
   .js {width: 95%; background-color: #04AA6D;} 
@@ -201,6 +203,13 @@ nav{
     width: 40px;
     background-color: rgb(177, 166, 166)
   }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  a:hover{
+  color: aqua;
+  }
   .summary{
 
     width: 70vw;
@@ -209,9 +218,26 @@ nav{
     margin: 20px;
     padding: 30px;
     font-size: medium;
-    font-family:cursive;
+    font-family: cursive;
+    overflow: auto;
     text-align: justify;
     animation: projects 2s linear infinite;
 
+  }
+  .edu-container{
+    display: flex;
+    justify-content: space-evenly;
+     flex-wrap: wrap;
+ }
+  .edu{
+    height: 30vh;
+    width: 20vw;
+    background: rgb(210, 205, 205) ;
+    border-radius: 10px;
+    transition: 1s ease;
+    padding: 20px;
+    margin: 15px;
+    overflow: auto;
+    animation: projects 2s linear infinite;
   }
   
