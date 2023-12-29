@@ -16,8 +16,6 @@ nav{
     background-color: black;
     color: white;
     padding: 10px;
-    
-
 }
 .intro{
    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -239,5 +237,17 @@ nav{
     margin: 15px;
     overflow: auto;
     animation: projects 2s linear infinite;
+  }
+  .logo{
+    width: 30px;
+    height: 20px;
+    float: right;
+  }
+  .footer{
+    margin-top: 30%;
+    position: fixed;
+    bottom:0;
+    padding: 14px;
+    background: #ddd;
   }
   
